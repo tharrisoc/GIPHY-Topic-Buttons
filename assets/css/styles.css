@@ -1,0 +1,35 @@
+.container {
+  background-image : url(../img/gradient-abstract-texture-background_1340-2270.jpg);
+  background-repeat : repeat;
+}
+
+#error-div {
+  display: none;
+}
+
+#error-msg {
+  color : #FF0000;
+}
+
+#instructions {
+  font-weight: 750;
+}
+
+#form-div { 
+  float: right;
+  padding-top: 8px;
+  padding-right: 4px;
+}
+
+.gif-slot {
+  margin-top : 16px;
+}
+
+.gif-img {
+  margin-top : -16px;
+}
+
+#logo-cell {
+  padding-left : 350px;
+  padding-top : 100px;
+}

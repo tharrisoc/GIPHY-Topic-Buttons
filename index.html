@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>GIPHY Topic Buttons</title>
+
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+          crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js">
+      </script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js">
+      </script>
+    <![endif] -->
+  </head>
+  <body>
+
+    <div class="container">
+      <!-- Header row -->
+      <div class="row">
+        <header class="col-md-12">
+          <h1 class="text-center" id="page-heading">
+            Display GIPHY .gifs by Topic
+          </h1>
+        </header>
+      </div>
+
+      <div id="form-div">
+            <form>
+              <div class="form-group">
+                <label for="topic-input"><small id="instructions">Enter search terms</small>
+                </label>
+                <input type="text" class="form-control-sm" id="topic-input"
+                       aria-describedby="topic entry">
+              </div>  <!-- form-group  -->
+                     
+              <button type="submit" class="btn btn-primary form-control-sm" id="submit">Submit topic(s)</button>
+            </form>
+      </div>  <!-- form-div -->     
+    
+      <div id="error-div">
+        <p id="error-msg"></p>
+      </div>
+
+      <!-- Add topic buttons here -->
+      <div class="btn-toolbar" id="buttons-div">
+      </div>
+    
+      <!-- Display gifs here -->
+        <div class="row">
+          <div class="col-md-3 gif-slot" id="gif01"></div>
+          <div class="col-md-3 gif-slot" id="gif02"></div>
+          <div class="col-md-3 gif-slot" id="gif03"></div>
+        </div>  <!-- row 1 -->
+
+        <div class="row">
+          <div class="col-md-3 gif-slot" id="gif04"></div>
+          <div class="col-md-3 gif-slot" id="gif05"></div>
+          <div class="col-md-3 gif-slot" id="gif06"></div>
+        </div>  <!-- row 2 -->
+      
+        <div class="row">
+          <div class="col-md-3 gif-slot" id="gif07"></div>
+          <div class="col-md-3 gif-slot" id="gif08"></div>
+          <div class="col-md-3 gif-slot" id="gif09"></div>
+        </div>  <!-- row 3 -->
+            
+        <div class="row">
+<!--      <div class="col-md-3 col-md-offset-6 gif-slot" id="gif10"></div> -->
+          <div class="col-md-3 col-md-offset-3 gif-slot" id="gif10"></div>
+          <div class="col-md-3 pull-right" id="logo-cell">
+            <img class="" src="../GIPHY-Topic-Buttons/assets/img/Poweredby_100px-White_VertText.png">
+          </div>
+        </div>  <!-- row 4 -->
+    </div>   <!-- container -->
+
+    <!-- Note: use the minified version, but *NOT* the slim minified version;
+               the slim minified version EXCLUDES Ajax -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+            
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+
+    <script type="text/javascript" 
+            src="./assets/javascript/app.js"></script>
+  </body>
+</html>
